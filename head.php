@@ -22,9 +22,9 @@ function active($currect_page){
 </head>
 
 <body>
-
+<div class="wrapper">
 	<div class="header">
-		<a href="index.php"><img class="navigation__logo" src="logo.png">
+		<a href="index.php"><img class="navigation__logo" src="logo.png"></a>
 			<div class= navigation>
 				<div class="navigation__item">
 					<a href="index.php" class="<?php active('index.php');?>">HOME</a>
